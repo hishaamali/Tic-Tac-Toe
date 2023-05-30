@@ -13,20 +13,19 @@ body{
   width: 550px;
   margin: auto;
   background-color: lightgray;
+  padding-left: 10px;
 }
 
 h1{
   font-family: font-family: 'Roboto', sans-serif;
   font-size: 25pt;
   color: #3a606e;
-
 }
 
 #message{
   font-size: 20pt;
   font-family:'Roboto', sans-serif;
   color: #e2725b;
-
 }
 
 #restart{
@@ -34,4 +33,22 @@ h1{
   font-family: 'Roboto', sans-serif;
   text-decoration: none;
   color: #3a606e;
+}
+
+@media screen and (max-width: 600px) {
+  h1 {
+    font-family: font-family: 'Roboto', sans-serif;
+    font-size: 20pt;
+  }
+  #message{
+    font-size: 15pt;
+    font-family:'Roboto', sans-serif;
+    color: #e2725b;
+  }
+  #restart{
+    font-size: 15pt;
+    font-family: 'Roboto', sans-serif;
+    text-decoration: none;
+   color: #3a606e;
+  }
 }
